@@ -1,0 +1,38 @@
+*.pt
+*.pth
+*.onnx
+*.tflite
+yolo11n.pt
+yolov8s.pt
+best.pt
+sam_vit_b_01ec64.pth
+Datasets/
+VisDrone*/
+negative_mining_coco/hard_negatives/
+negative_mining_coco/unlabeled2017/
+VisDrone-YOLO/train/
+VisDrone-YOLO/valid/
+VisDrone-YOLO/test/
+*.zip
+*.7z
+*.tar.gz
+*.rar
+runs/
+results/
+*_results/
+comparison_results/
+results_v5/
+beforeAndAfterComparison/
+runs/from_colab/
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+venv/
+.venv/
+
+# whitelist
+# for keeping a specific image for exhibition
+# !assets/example.jpg
